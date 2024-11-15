@@ -1,0 +1,18 @@
+{
+  "name": "dc7-sea",
+  "version": "1.0.0",
+  "scripts": {
+    "firewall:compile": "hardhat compile",
+    "firewall:deploy": "hardhat run scripts/deploy-firewall.ts",
+    "firewall:setup": "hardhat run scripts/setup-firewall.ts",
+    "firewall:remove": "hardhat run scripts/remove-firewall.ts"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.15",
+    "@openzeppelin/contracts": "^5.1.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "toolog": "^1.0.1"
+  }
+}
