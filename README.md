@@ -22,6 +22,7 @@ Ready ?  Let's go 💪
 
 ```shell
 git clone https://github.com/ironblocks/DC7-SEA
+cd DC7-SEA
 npm ci
 ```
 
